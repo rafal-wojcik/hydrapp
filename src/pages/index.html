@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF: Webpack starter kit</title>
-    <meta name="description" content="Your project description" />
+    <meta name="description" content="Aplikacja licząca szklanki wody" />
     <!-- Title -->
-    <meta property="og:title" content="" />
+    <meta property="og:title" content="Hydrapp" />
     <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Aplikacja licząca szklanki wody" />
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
     <meta property="og:url" content="" />
     <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
@@ -145,9 +145,13 @@
     />
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <main class="app">
+      <h1 class="app_title">hydrapp</h1>
+      <div class="glass">
+        <span class="glass_counter glass_counter--js">0</span>
+      </div>
+      <button class="button_add button_add--js">dodaj szklankę</button>
+      <button class="button_remove button_remove--js">usuń szklankę</button>
+    </main>
   </body>
 </html>
